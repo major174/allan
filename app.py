@@ -55,7 +55,7 @@ if st.button('Analyse sentiment',type='primary'):
         url = f'https://drive.google.com/uc?id={file_id}'
 
         # Utilisez la méthode `tf.keras.utils.get_file` pour charger le modèle directement depuis Google Drive
-        model_path = tf.keras.utils.get_file('modelestop1.h5', origin=url, extract=False, cache_subdir='/content/drive/MyDrive/model/')
+        model_path = tf.keras.utils.get_file('modelestop1.h5', origin=url, extract=False, cache_subdir='./model/')
 
         # Chargez le modèle
         model = tf.keras.models.load_model(model_path,compile=False)
@@ -105,7 +105,7 @@ if st.button('Analyse sentiment',type='primary'):
         url = f'https://drive.google.com/uc?id={file_id}'
 
         # Utilisez la méthode `tf.keras.utils.get_file` pour charger le modèle directement depuis Google Drive
-        model_path = tf.keras.utils.get_file('modele_french.h5', origin=url, extract=False, cache_subdir='/content/drive/MyDrive/model/')
+        model_path = tf.keras.utils.get_file('modele_french.h5', origin=url, extract=False, cache_subdir='./model/')
 
         # Chargez le modèle
         model = tf.keras.models.load_model(model_path,compile=False)
