@@ -14,7 +14,7 @@ model: Dossier contenant le modèle pré-entraîné et les fichiers associés.
 
 # Comment utiliser l'application
 
-1-Accédez à l'application en suivant le lien : [Lien vers l'Application.](https://major174-lydie-app-oxykag.streamlit.app/)
-2-Entrez du texte selon votre choix (français ou anglais) dans la zone de texte prévue.
-3-Cliquez sur le bouton "Predict" pour obtenir la prédiction.
-4-La prédiction sera affichée avec des informations sur la probabilité associée à la présence du sentiment positif ou négatif.
+1.Accédez à l'application en suivant le lien : [Lien vers l'Application.](https://major174-lydie-app-oxykag.streamlit.app/)
+2.Entrez du texte selon votre choix (français ou anglais) dans la zone de texte prévue.
+3.Cliquez sur le bouton "Predict" pour obtenir la prédiction.
+4.La prédiction sera affichée avec des informations sur la probabilité associée à la présence du sentiment positif ou négatif.
